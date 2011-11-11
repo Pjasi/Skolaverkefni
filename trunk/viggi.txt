@@ -2,4 +2,4 @@
 jibbí kóla
 bjössi er fallegur.
 hlynur er sofandi.
-branching.
+masterbranching.
