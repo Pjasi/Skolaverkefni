@@ -1,0 +1,13 @@
+1. Forrita TicTacToe með testum go vera að commita
+
+2.Vera með integration tests
+
+3. Vera með unit tests
+
+4. gera build script
+
+5. The business logic should be coded using Test Driven Development. ???
+
+6. The code should be loosely coupled and follow good object oriented design practices.
+
+7. It is possible to get extra points for the following:a. Run focused integration tests automaticallyb. Run one or more end-to-end tests automaticallyc. Run UI tests automaticallyd. Start the system and verify that is starts and exits normally in the build script e. Run code coverage in the build scriptf. Run code inspection in the build script g. Use Automated Continuous Integration h. or something else ...
