@@ -1,0 +1,21 @@
+package test;
+
+import static org.junit.Assert.*;
+import junit.framework.Assert;
+
+import org.junit.Test;
+import heild.TicTacToe;
+
+
+public class TTTtest {
+
+	@Test
+	public void testInitialize() {
+		TicTacToe TTT = new TicTacToe();
+		//TTT.initialize();
+		assertEquals("a",TTT.initialize());
+		new AssertError("nei");
+	}
+
+	
+}

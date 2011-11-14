@@ -9,7 +9,6 @@ INDEX VERSION 1.126+/Users/asbjornpetursson/Skolaverkefni/trunk/.metadata/.plugi
 1819685514.index
 84777399.index
 3407819186.index
-2840520091.index
 1384487945.index
 1271342938.index
 156905802.index

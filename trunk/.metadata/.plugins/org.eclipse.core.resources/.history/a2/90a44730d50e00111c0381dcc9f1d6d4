@@ -1,0 +1,50 @@
+package heild;
+
+public class TicTacToe {
+	
+	private char[][] board = new char[3][3];
+	int currentPlayer;
+	int plays;
+	
+	public char initialize(){
+		int counter = 97;
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                board[i][j] =(char) counter;
+                counter++;
+            }
+        }
+        currentPlayer = 1;
+        plays = 0;
+        char skilagildi = board[0][0];
+        System.out.print(skilagildi);
+        return skilagildi;
+        
+	}
+
+	public void printBoard() {
+		for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++){
+            		System.out.print(board[i][j]);
+            		//System.out.print("  ");
+            	}
+            //System.out.println("\n");
+            }
+	}
+	
+	public void printWinner() {
+		// TODO Auto-generated method 
+	}
+
+
+	public void readMove() {
+		// TODO Auto-generated method stub
+
+	}
+
+	public boolean isWinner() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}
